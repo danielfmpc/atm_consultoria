@@ -46,7 +46,7 @@ flutter:
   #  - images/a_dot_ham.jpeg
   assets:
     - images/cliente1.png
-    - images/cliente1.png
+    - images/cliente2.png
     - images/detalhe_cliente.png
     - images/detalhe_contato.png
     - images/detalhe_empresa.png

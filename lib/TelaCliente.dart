@@ -13,6 +13,41 @@ class _TelaClienteState extends State<TelaCliente> {
         title: Text("Clientes"),
         backgroundColor: Colors.lightGreen,
       ),
+      body: SingleChildScrollView(
+        padding: EdgeInsets.all(16),
+        child: Container(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: <Widget>[
+              Row(
+                children: <Widget>[
+                  Image.asset("images/detalhe_cliente.png"),
+                  Padding(
+                    padding: EdgeInsets.only(left: 10),
+                    child: Text(
+                      "Clientes",
+                      style: TextStyle(
+                        color: Colors.lightGreen,
+                        fontSize: 20
+                      ),
+                    ),
+                  )
+                ],
+              ),
+              Padding(
+                padding: EdgeInsets.only(top: 16),
+                child: Image.asset("images/cliente1.png"),
+              ),
+              Text("Empresa de software"),
+              Padding(
+                padding: EdgeInsets.only(top: 16),
+                child: Image.asset("images/cliente2.png"),
+              ), 
+              Text("Empresa de auditoria"),
+            ],
+          ),
+        ),
+      ),
     );
   }
 }
